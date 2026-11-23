@@ -73,12 +73,12 @@ export default function Sidebar() {
           <div className="flex items-center gap-2">
             <button
               onClick={() => setCollapsed(!collapsed)}
-              className="hidden md:block p-2 rounded-lg text-white/60 hover:bg-white/10 hover:text-white transition"
+              className="hidden md:block p-2 ml-3 rounded-lg text-white/60 hover:bg-white/10 hover:text-white transition"
             >
               {collapsed ? (
-                <PanelLeftOpen size={20} />
+                <PanelLeftOpen size={21} />
               ) : (
-                <PanelLeftClose size={20} />
+                <PanelLeftClose size={21} />
               )}
             </button>
 
@@ -86,7 +86,7 @@ export default function Sidebar() {
               onClick={() => setMobileOpen(false)}
               className="md:hidden p-2 rounded-lg text-white/60 hover:bg-white/10"
             >
-              <X size={20} />
+              <X size={21} />
             </button>
           </div>
         </div>
