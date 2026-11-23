@@ -80,8 +80,9 @@ export default function Navbar() {
                   </Link>
 
                   <Link
-                    href="/signup"
+                    href="/"
                     className="bg-white text-black text-sm font-semibold md:px-4 md:py-2.5 p-2 rounded-full hover:bg-white/85 transition"
+                    onClick={() => setLoggedIn(true)}
                   >
                     Get started
                   </Link>
