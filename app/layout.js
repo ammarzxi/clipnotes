@@ -20,11 +20,15 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const loggedIn = false; 
+
   return (
     <html lang="en">
       <body className={`${geist.variable} ${newsreader.variable}`}>
         <div className="flex min-h-screen">
-          <Sidebar />
+          { loggedIn &&
+            <Sidebar />
+          }
           <div className="min-w-0 flex-1">
             <Navbar />
             <main>{children}</main>
