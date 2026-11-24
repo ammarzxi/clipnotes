@@ -9,8 +9,8 @@ export default function Navbar() {
   const [loggedIn, setLoggedIn] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-30 border-b border-white/10 bg-[#090a0d]/80 backdrop-blur-xl">
-      <div className="max-w-7xl mx-auto px-5 md:px-8 py-4 flex items-center justify-between gap-4">
+    <nav className="sticky top-0 z-30 border-b border-white/10 bg-[#090a0d]/50 backdrop-blur-xl">
+      <div className="w-full mx-auto px-5 md:px-8 py-4 flex items-center justify-between gap-4">
 
         {searchOpen ? (
           <div className="flex items-center gap-3 w-full md:hidden">
