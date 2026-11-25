@@ -13,7 +13,7 @@ export default function Features() {
       <div className="flex flex-col xl:flex-row gap-4">
 
         <div className="flex items-center gap-4 flex-1 min-w-0 bg-[var(--glass)] border border-[var(--border)] rounded-xl p-4 xl:p-5 hover:bg-[var(--glass-hover)] transition">
-          <FileText size={22} className="shrink-0" />
+          <FileText size={32} className="shrink-0" />
 
           <div className="flex-1">
             <h3 className="font-medium">AI-powered notes</h3>
@@ -26,7 +26,7 @@ export default function Features() {
         </div>
 
         <div className="flex items-center gap-4 flex-1 min-w-0 bg-[var(--glass)] border border-[var(--border)] rounded-xl p-4 xl:p-5 hover:bg-[var(--glass-hover)] transition">
-          <Search size={22} className="shrink-0" />
+          <Search size={32} className="shrink-0" />
 
           <div className="flex-1">
             <h3 className="font-medium">Search your knowledge</h3>
@@ -39,7 +39,7 @@ export default function Features() {
         </div>
 
         <div className="flex items-center gap-4 flex-1 min-w-0 bg-[var(--glass)] border border-[var(--border)] rounded-xl p-4 xl:p-5 hover:bg-[var(--glass-hover)] transition">
-          <Library size={22} className="shrink-0" />
+          <Library size={32} className="shrink-0" />
 
           <div className="flex-1">
             <h3 className="font-medium">Build your library</h3>
