@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Sidebar from "./components/layout/Sidebar";
+import EndingMark from "./components/landing/EndingMark";
 
 const geist = Geist({
   variable: "--font-geist",
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
           <div className="min-w-0 flex-1">
             <Navbar />
             <main>{children}</main>
+            <EndingMark />
             <Footer />
           </div>
         </div>
